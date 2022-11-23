@@ -2,7 +2,7 @@
 	"name": "gantt",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://YuriiBoltukov.github.io/gantt-chart",
+	"proxy": "http://localhost:3001",
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.8.5",
 		"@syncfusion/ej2-react-gantt": "^20.3.57",
@@ -13,6 +13,7 @@
 		"@types/node": "^16.18.3",
 		"@types/react": "^18.0.25",
 		"@types/react-dom": "^18.0.9",
+		"body-parser": "^1.20.1",
 		"dayjs": "^1.11.6",
 		"moment": "^2.29.4",
 		"nanoid": "^4.0.0",

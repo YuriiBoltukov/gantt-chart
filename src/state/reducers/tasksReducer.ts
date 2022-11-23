@@ -1,4 +1,3 @@
-import { createSelector, PayloadAction } from '@reduxjs/toolkit';
 import { IChartResponse, IDataResponse } from '../../interface/interface';
 import { createMatcher, setActiveStatusById } from '../services/tasksService';
 import { SET_TASKS, SET_ACTIVE_STATUS } from '../actions/actionTypes';
